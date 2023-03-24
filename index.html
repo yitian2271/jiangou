@@ -53,7 +53,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-03-24 20:50:43'
+  postUpdate: '2023-03-24 21:54:30'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -157,225 +157,262 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/touxiang.JPG" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">34</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://s1.ax1x.com/2023/03/23/ppwmnoT.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="happy的博客"><img class="site-icon" src="/./img/touxiang.JPG"/><span class="site-name">happy的博客</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">happy的博客</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/rrjjyy" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day15-%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8/" title="day15-类加载器">day15-类加载器</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:56:59.000Z" title="发表于 2023-03-24 19:56:59">2023-03-24</time></span></div><div class="content">1.类加载器1.1类加载【理解】
-类加载的描述
-当程序要使用某个类时，如果该类还未被加载到内存中，则系统会通过类的加载，类的连接，类的初始化这三个步骤来对类进行初始化。如果不出现意外情况，JVM将会连续完成这三个步骤，所以有时也把这三个步骤统称为类加载或者类初始化
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/./img/touxiang.JPG" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">53</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://s1.ax1x.com/2023/03/23/ppwmnoT.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="happy的博客"><img class="site-icon" src="/./img/touxiang.JPG"/><span class="site-name">happy的博客</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">happy的博客</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/rrjjyy" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/Git%E6%95%99%E7%A8%8B/" title="Git教程">Git教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:41:36.000Z" title="发表于 2023-03-24 21:41:36">2023-03-24</time></span></div><div class="content">
 
 
-类的加载
-就是指将class文件读入内存，并为之创建一个 java.lang.Class 对象
-任何类被使用时，系统都会为之建立一个 java.lang.Class 对象
 
+git 教程[TOC]
+1.版本管理工具概念我在大学毕业写论文的时候的时候碰到过如下的现象
+12345&lt;&lt;毕业论文第一版.doc&gt;&gt;&lt;&lt;毕业论文第二版.doc&gt;&gt;&lt;&lt;毕业论文第三版.doc&gt;&gt;&lt;&lt;毕业论文最终版.doc&gt;&gt;&lt;&lt;毕业论文最终版2.doc&gt;&gt;
 
-类的连接
-验证阶段：用于检验被加载的类是否有正确的内部结构，并和其他类协调一致
-准备阶段：负责为类的类变量分配内存，并设置默认初始化值
-解析阶段：将类的二进制数据中的符号引用替换为直接引用
+类似的问题我曾经也碰到过很多,例如:
+1领导让写文档,写好了,领导让修改,改好了,领导觉得第一版不错,改回来吧,此时内心一脸懵,第一版长啥样没存档啊
 
+实际上,代码开发中也需要这样的软件来管理我们的代码. 例如我们经常会碰到如下的现象:
+1改之前好好的,改完就报错了,也没怎么修改啊
 
-类的初始化
-在该阶段，主要就是对类变量进行初始化
+在这种情况下如果不能查看修改之前的代码,查找问题是非常困难的.
+如果有一个软件能记录我们对文档的所有修改,所有版本,那么上面的问题讲迎刃而解.而这类软件我们一般叫做版本控制工具
+版本管理工具一般具有如下特性:
+121) 能够记录历史版本,回退历史版本2) 团队开发,方便代码合并
 
 
-类的初始化步骤
-假如类还未被加载和连接，则程序先加载并连接该类
-假如该类的直接父类还未被初始化，则先初始化其直接父类
-假如类中有初始化语句，则系统依次执行这些初始化语句
-注意：在执行第2个步骤的时候，系统对直接父类的初始化步骤也遵循初始化步骤1-3
 
+2. 版本管理工具介绍现在比较流行的版本管 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day15-Maven%E9%AB%98%E7%BA%A7/" title="day15-Maven高级">day15-Maven高级</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:35:20.000Z" title="发表于 2023-03-24 21:35:20">2023-03-24</time></span></div><div class="content">Maven高级Web开发讲解完毕之后，我们再来学习Maven高级。其实在前面的课程当中，我们已经学习了Maven。
+我们讲到 Maven 是一款构建和管理 Java 项目的工具。经过前面 10 多天 web 开发的学习，相信大家对于 Maven 这款工具的基本使用应该没什么问题了。我们掌握了 Maven 工具的基本使用之后，其实对于一些简单的项目的构建及管理基本上就没什么问题了。
+但是如果我们需要开发一些中大型的项目，此时仅凭我们前面所学习的 Maven 的基础知识就比较难以应对了。所以我们接下来还需要学习 Maven 提供的一些高级的功能，这些功能在构建和管理 Java 项目的时候用的也是非常多的。
+Maven高级内容包括:
 
-类的初始化时机
-创建类的实例
-调用类的类方法
-访问类 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day14-%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3/" title="day14-函数式接口">day14-函数式接口</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:54:49.000Z" title="发表于 2023-03-24 19:54:49">2023-03-24</time></span></div><div class="content">1.函数式接口1.1函数式接口概述【理解】
-概念
-有且仅有一个抽象方法的接口
+分模块设计与开发
+继承与聚合
+私服
 
-如何检测一个接口是不是函数式接口
-@FunctionalInterface
-放在接口定义的上方：如果接口是函数式接口，编译通过；如果不是，编译失败
+1. 分模块设计与开发1.1 介绍所谓分模块设计，顾名思义指的就是我们在设计一个 Java 项目的时候，将一个 Java 项目拆分成多个模块进行开发。
+1). 未分模块设计的问题
+ 
 
-注意事项
-我们自己定义函数式接口的时候，@FunctionalInterface是可选的，就算我不写这个注解，只要保证满足函数式接口定义的条件，也照样是函数式接口。但是，建议加上该注解
+如果项目不分模块，也就意味着所有的业务代码是不是都写在这一个 Java 项目当中。随着这个项目的业务扩张，项目当中的业务功能可能会越来越多 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day14-SpringBoot%E5%8E%9F%E7%90%86%E7%AF%87/" title="day14-SpringBoot原理篇">day14-SpringBoot原理篇</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:34:22.000Z" title="发表于 2023-03-24 21:34:22">2023-03-24</time></span></div><div class="content">SpingBoot原理在前面十多天的课程当中，我们学习的都是web开发的技术使用，都是面向应用层面的，我们学会了怎么样去用。而我们今天所要学习的是web后端开发的最后一个篇章springboot原理篇，主要偏向于底层原理。
+我们今天的课程安排包括这么三个部分：
 
+配置优先级：Springboot项目当中属性配置的常见方式以及配置的优先级
+Bean的管理
+剖析Springboot的底层原理
 
-1.2函数式接口作为方法的参数【应用】
-需求描述
-定义一个类(RunnableDemo)，在类中提供两个方法
-一个方法是：startThread(Runnable r)   方法参数Runnable是一个函数式接口
-一个方法是主方法，在主方法中调用startThread方法
+1. 配置优先级在我们前面的课程当中，我们已经讲解了SpringBoot项目当中支持的三类配置文件：
 
-代码演示
-123456789101112131415161718192021public class RunnableDemo &#123;    public static void main(String[] args) &#123;        //在主方法中调用startThread方法   ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day13-Lambda/" title="day13-Lambda">day13-Lambda</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:53:51.000Z" title="发表于 2023-03-24 19:53:51">2023-03-24</time></span></div><div class="content">1.Lambda表达式1.1体验Lambda表达式【理解】
-案例需求
-启动一个线程，在控制台输出一句话：多线程程序启动了
+application.properties
+application.yml
+application.yaml
 
-实现方式一
+在SpringBoot项目当中，我们要想配置一个属性，可以通过这三种方式当中的任意一种来配置都可以，那么如果项目中同时存在这三种配置文件，且都配置了同一个属性，如：Tomcat端口号，到底哪一份配置文件生效呢？
 
-实现步骤
-定义一个类MyRunnable实现Runnable接口，重写run()方法
-创建MyRunnable类的对象
-创建Thread类的对象，把MyRunnable的对象作为构造参数传递
-启动线程
+application.properties
 
+1server.port=8081
 
 
+application.yml
 
-实现方式二
+12server:   port: 8082
 
-匿名内部类的方式改进
 
+a ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day13-SpringBootWeb-AOP/" title="day13-SpringBootWeb-AOP">day13-SpringBootWeb-AOP</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:33:02.000Z" title="发表于 2023-03-24 21:33:02">2023-03-24</time></span></div><div class="content">事务&amp;AOP1. 事务管理1.1 事务回顾在数据库阶段我们已学习过事务了，我们讲到：
+事务是一组操作的集合，它是一个不可分割的工作单位。事务会把所有的操作作为一个整体，一起向数据库提交或者是撤销操作请求。所以这组操作要么同时成功，要么同时失败。
+怎么样来控制这组操作，让这组操作同时成功或同时失败呢？此时就要涉及到事务的具体操作了。
+事务的操作主要有三步：
 
-实现方式三
+开启事务（一组操作开始前，开启事务）：start transaction &#x2F; begin ;
+提交事务（这组操作全部成功后，提交事务）：commit ;
+回滚事务（中间任何一个操作出现异常，回滚事务）：rollback ;
 
-Lambda表达式的方式改进
+1.2 Spring事务管理1.2.1 案例简单的回顾了事务的概念以及事务的基本操作之后，接下来我们看一个事务管理案例：解散部门 （解散部门就是删除部门）
+需求：当部门解散了不仅需要把部门信息删除了，还需要把该部门下的员工数据也删除了。
+步骤：
 
+根据ID删除部门数据
+根据部门ID删除该部门下的员工
 
-代码演示
-123456789101112131415161718192021222324252627282930//方式一的线程类public class MyRunnable implements Runnable &#123;    @Override    public void run() &#123;        System.out.println(&quot;多线程程序启动了&quot;);    &#125;&#125;public class LambdaDemo &#123;    public static void main(Str ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day12-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" title="day12-网络编程">day12-网络编程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:52:53.000Z" title="发表于 2023-03-24 19:52:53">2023-03-24</time></span></div><div class="content">1.网络编程入门1.1 网络编程概述【理解】
-计算机网络
-是指将地理位置不同的具有独立功能的多台计算机及其外部设备，通过通信线路连接起来，在网络操作系统，网络管理软件及网络通信协议的管理和协调下，实现资源共享和信息传递的计算机系统
+代码实现：
 
-网络编程
-在网络通信协议下，实现网络互连的不同计算机上运行的程序间可以进行数据交换
+DeptServiceImpl
 
+1234567891011121314151 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day12-SpringBootWeb%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81/" title="day12-SpringBootWeb登录认证">day12-SpringBootWeb登录认证</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:30:31.000Z" title="发表于 2023-03-24 21:30:31">2023-03-24</time></span></div><div class="content">案例-登录认证在前面的课程中，我们已经实现了部门管理、员工管理的基本功能，但是大家会发现，我们并没有登录，就直接访问到了Tlias智能学习辅助系统的后台。 这是不安全的，所以我们今天的主题就是登录认证。 最终我们要实现的效果就是用户必须登录之后，才可以访问后台系统中的功能。
 
-1.2 网络编程三要素【理解】
-IP地址
-要想让网络中的计算机能够互相通信，必须为每台计算机指定一个标识号，通过这个标识号来指定要接收数据的计算机和识别发送的计算机，而IP地址就是这个标识号。也就是设备的标识
+1. 登录功能1.1 需求
+在登录界面中，我们可以输入用户的用户名以及密码，然后点击 “登录” 按钮就要请求服务器，服务端判断用户输入的用户名或者密码是否正确。如果正确，则返回成功结果，前端跳转至系统首页面。
+1.2 接口文档我们参照接口文档来开发登录功能
 
-端口
-网络的通信，本质上是两个应用程序的通信。每台计算机都有很多的应用程序，那么在网络通信时，如何区分这些应用程序呢？如果说IP地址可以唯一标识网络中的设备，那么端口号就可以唯一标识设备中的应用程序了。也就是应用程序的标识
+基本信息
+12345请求路径：/login请求方式：POST接口描述：该接口用于员工登录Tlias智能学习辅助系统，登录完毕后，系统下发JWT令牌。 
 
-协议
-通过计算机网络可以使多台计算机实现连接，位于同一个网络中的计算机在进行连接和通信时需要遵守一定的规则，这就好比在道路中行驶的汽车一定要遵守交通规则一样。在计算机网络中，这些连接和通信的规则被称为网络通信协议，它对数据的传输格式、传输速 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day11-%E5%A4%9A%E7%BA%BF%E7%A8%8B/" title="day11-多线程">day11-多线程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:51:30.000Z" title="发表于 2023-03-24 19:51:30">2023-03-24</time></span></div><div class="content">1.实现多线程1.1进程和线程【理解】
-进程：是正在运行的程序
-​	是系统进行资源分配和调用的独立单位
-​	每一个进程都有它自己的内存空间和系统资源
+请求参数
+参数格式：application&#x2F;json
+参数说明：
 
-线程：是进程中的单个顺序控制流，是一条执行路径
-​	单线程：一个进程如果只有一条执行路径，则称为单线程程序
-​	多线程：一个进程如果有多条执行路径，则称为多线程程序
 
 
-1.2实现多线程方式一：继承Thread类【应用】
-方法介绍
+名称
+类型
+是否必须
+备注
 
 
 
-方法名
-说明
+username
+string
+必须
+用户名
 
 
+password
+string
+必须
+密码
 
-void run()
-在线程开启后，此方法将被调用执行
 
+请求数据样例：
+1234&#123;	&quot;username&quot;: &quot; ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day11-SpringBootWeb%E6%A1%88%E4%BE%8B-2/" title="day11-SpringBootWeb案例-2">day11-SpringBootWeb案例-2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:29:29.000Z" title="发表于 2023-03-24 21:29:29">2023-03-24</time></span></div><div class="content">SpringBootWeb案例前面我们已经实现了员工信息的条件分页查询以及删除操作。 关于员工管理的功能，还有两个需要实现：
 
-void start()
-使此线程开始执行，Java虚拟机会调用run方法()
+新增员工
+修改员工
 
 
+首先我们先完成”新增员工”的功能开发，再完成”修改员工”的功能开发。而在”新增员工”中，需要添加头像，而头像需要用到”文件上传”技术。 当整个员工管理功能全部开发完成之后，我们再通过配置文件来优化一些内容。
+综上所述，我们今天的课程内容包含以下四个部分：
 
-实现步骤
+新增员工
+文件上传
+修改员工
+配置文件
 
-定义一个类MyThread继承Thread类
-在MyThread类中重写run()方法
-创建MyThread类的对象
-启动线程
+1. 新增员工1.1 需求 
+在新增用户时，我们需要保存用户的基本信息，并且还需要上传的员工的图片，目前我们先完成第一步操作，保存用户的基本信息。 
+1.2 接口文档我们参照接口文档来开发新增员工功能
 
+基本信息
+12345请求路径：/emps请求方式：POST接口描述：该接口用于添加员工的信息
 
-代码演示
-123456789101112131415161718192021public class MyThread extends Thread &#123;    @Override    public void run() &#123;        for(int i=0; i&lt;10 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day10-IO%E6%B5%81/" title="day10-IO流">day10-IO流</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:49:43.000Z" title="发表于 2023-03-24 19:49:43">2023-03-24</time></span></div><div class="content">1.IO流案例1.1集合到文件数据排序改进版【应用】1.1.1案例需求
-键盘录入5个学生信息(姓名,语文成绩,数学成绩,英语成绩)。要求按照成绩总分从高到低写入文本文件
-格式：姓名,语文成绩,数学成绩,英语成绩  举例：林青霞,98,99,100
+请求参数
+参数格式：application&#x2F;json
+参数说明：
 
-1.1.2分析步骤
-定义学生类
-创建TreeSet集合，通过比较器排序进行排序
-键盘录入学生数据
-创建学生对象，把键盘录入的数据对应赋值给学生对象的成员变量
-把学生对象添加到TreeSet集合
-创建字符缓冲输出流对象
-遍历集合，得到每一个学生对象
-把学生对象的数据拼接成指定格式的字符串
-调用字符缓冲输出流对象的方法写数据
-释放资源
 
-1.1.3代码实现
-学生类
-12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758public class Student &#123;    // 姓名    private String name;    // 语文成绩    private int ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day09-%E5%AD%97%E8%8A%82%E7%BC%93%E5%86%B2%E6%B5%81/" title="day09-字节缓冲流">day09-字节缓冲流</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:47:23.000Z" title="发表于 2023-03-24 19:47:23">2023-03-24</time></span></div><div class="content">1.字节缓冲流1.1字节缓冲流构造方法【应用】
-字节缓冲流介绍
 
-lBufferOutputStream：该类实现缓冲输出流。 通过设置这样的输出流，应用程序可以向底层输出流写入字节，而不必为写入的每个字节导致底层系统的调用
+名称
+类型
+是否必须
+备注
 
-lBufferedInputStream：创建BufferedInputStream将创建一个内部缓冲区数组。 当从流中读取或跳过字节时，内部缓冲区将根据需要从所包含的输入流中重新填充，一次很多字节
 
 
+username
+string
+必须
+用户名
 
-构造方法：
 
+name
+string
+必须
+姓名
 
 
-方法名
-说明
+gender
+number
+必须
+性别,  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day10-SpringBootWeb%E6%A1%88%E4%BE%8B-1/" title="day10-SpringBootWeb案例-1">day10-SpringBootWeb案例-1</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:27:52.000Z" title="发表于 2023-03-24 21:27:52">2023-03-24</time></span></div><div class="content">SpringBootWeb案例前面我们已经讲解了Web前端开发的基础知识，也讲解了Web后端开发的基础(HTTP协议、请求响应)，并且也讲解了数据库MySQL，以及通过Mybatis框架如何来完成数据库的基本操作。 那接下来，我们就通过一个案例，来将前端开发、后端开发、数据库整合起来。 而这个案例呢，就是我们前面提到的Tlias智能学习辅助系统。
 
+在这个案例中，前端开发人员已经将前端工程开发完毕了。 我们需要做的，就是参考接口文档完成后端功能的开发，然后结合前端工程进行联调测试即可。
+完成后的成品效果展示：
 
 
-BufferedOutputStream(OutputStream out)
-创建字节缓冲输出流对象
+今天的主要内容如下：
 
+准备工作
+部门管理
+员工管理
 
-BufferedInputStream(InputStream in)
-创建字节缓冲输入流对象
 
+下面我们就进入到今天的第1个内容准备工作的学习。
+1. 准备工作准备工作的学习，我们先从”需求”和”环境搭建”开始入手。
+1.1 需求&amp;环境搭建1.1.1 需求说明1、部门管理
 
+部门管理功能开发包括：
 
-示例代码
-1234567891011121314151617181920212223242526272829303132public class BufferStreamDemo &#123;    public static void main(String[] args) throws IOException &# ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day08-File/" title="day08-File">day08-File</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:46:28.000Z" title="发表于 2023-03-24 19:46:28">2023-03-24</time></span></div><div class="content">1.File类1.1File类概述和构造方法【应用】
-File类介绍
+查询部门列表
+删除部门
+新增部门
+修改部门
 
-它是文件和目录路径名的抽象表示
-文件和目录是可以通过File封装成对象的
-对于File而言，其封装的并不是一个真正存在的文件，仅仅是一个路径名而已。它可以是存在的，也可以是不存在的。将来是要通过具体的操作把这个路径的内容转换为具体存在的
+2、员工管理
 
+员工管理功能开发包括：
 
-File类的构造方法
+查询员工列表(分页、条件)
+删除员工
+新增员工
+修改员工
 
+1.1.2 环境搭建
+步骤：
 
+准备数据库表(dept、em ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day09-Mybatis/" title="day09-Mybatis">day09-Mybatis</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:24:37.000Z" title="发表于 2023-03-24 21:24:37">2023-03-24</time></span></div><div class="content">1. Mybatis基础操作学习完mybatis入门后，我们继续学习mybatis基础操作。
+1.1 需求需求说明：
 
-方法名
-说明
+根据资料中提供的《tlias智能学习辅助系统》页面原型及需求，完成员工管理的需求开发。
 
+ 
 
 
-File(String   pathname)
-通过将给定的路径名字符串转换为抽象路径名来创建新的 File实例
+通过分析以上的页面原型和需求，我们确定了功能列表：
 
+查询
 
-File(String   parent, String child)
-从父路径名字符串和子路径名字符串创建新的   File实例
+根据主键ID查询
+条件查询
 
 
-File(File   parent, String child)
-从父抽象路径名和子路径名字符串创建新的   File实例
+新增
 
+更新
 
+删除
 
-示例代码
-12345678910111213141516public class FileDemo01 &#123;    public static void main(String[] args) &#123;        //File(Stri ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day07-%E9%9B%86%E5%90%88/" title="day07-集合">day07-集合</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T11:45:32.000Z" title="发表于 2023-03-24 19:45:32">2023-03-24</time></span></div><div class="content">public class PokerDemo {    public static void main(String[] args) {        &#x2F;&#x2F;创建HashMap，键是编号，值是牌        HashMap&lt;Integer, String&gt; hm &#x3D; new HashMap&lt;Integer, String&gt;();
-    //创建ArrayList，存储编号
-    ArrayList&lt;Integer&gt; array = new ArrayList&lt;Integer&gt;();
+根据主键ID删除
+根据主键ID批量删除
 
-    //创建花色数组和点数数组
-    String[] colors = &#123;&quot;♦&quot;, &quot;♣&quot;, &quot;♥&quot;, &quot;♠&quot;&#125;;
-    String[] numbers = &#123;&quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;7&quot; ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day06-%E9%9B%86%E5%90%88/" title="day06-集合">day06-集合</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T07:30:38.000Z" title="发表于 2023-03-24 15:30:38">2023-03-24</time></span></div><div class="content">1.Set集合1.1Set集合概述和特点【应用】
-Set集合的特点
-元素存取无序
-没有索引、只能通过迭代器或增强for循环遍历
-不能存储重复元素
 
 
-Set集合的基本使用
+1.2 准备实施前的准备工作：
 
-123456789101112131415161718public class SetDemo &#123;    public static void main(String[] args) &#123;        //创建集合对象        Set&lt;String&gt; set = new HashSet&lt;String&gt;();        //添加元素        set.add(&quot;hello&quot;);        set.add(&quot;world&quot;);        set.add(&quot;java&quot;);        //不包含重复元素的集合        set.add(&quot;world&quot;);        //遍历        for(String s : set) &#123;            Sys ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/#content-inner">4</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/./img/touxiang.JPG" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">happy</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">34</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/rrjjyy"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/rrjjyy" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day15-%E7%B1%BB%E5%8A%A0%E8%BD%BD%E5%99%A8/" title="day15-类加载器">day15-类加载器</a><time datetime="2023-03-24T11:56:59.000Z" title="发表于 2023-03-24 19:56:59">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day14-%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3/" title="day14-函数式接口">day14-函数式接口</a><time datetime="2023-03-24T11:54:49.000Z" title="发表于 2023-03-24 19:54:49">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day13-Lambda/" title="day13-Lambda">day13-Lambda</a><time datetime="2023-03-24T11:53:51.000Z" title="发表于 2023-03-24 19:53:51">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day12-%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" title="day12-网络编程">day12-网络编程</a><time datetime="2023-03-24T11:52:53.000Z" title="发表于 2023-03-24 19:52:53">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/java%E5%9F%BA%E7%A1%80/%E7%AC%AC%E4%BA%8C%E9%98%B6%E6%AE%B5/day11-%E5%A4%9A%E7%BA%BF%E7%A8%8B/" title="day11-多线程">day11-多线程</a><time datetime="2023-03-24T11:51:30.000Z" title="发表于 2023-03-24 19:51:30">2023-03-24</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/picture/" style="font-size: 1.1em; color: #999">picture</a> <a href="/tags/nacos/" style="font-size: 1.1em; color: #999">nacos</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/" style="font-size: 1.1em; color: #999">软件安装</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 1.1em; color: #999">面试</a> <a href="/tags/java%E5%9F%BA%E7%A1%80/" style="font-size: 1.1em; color: #999">java基础</a> <a href="/tags/mybatis/" style="font-size: 1.1em; color: #999">mybatis</a> <a href="/tags/mysql/" style="font-size: 1.5em; color: #99a9bf">mysql</a> <a href="/tags/jdbc/" style="font-size: 1.1em; color: #999">jdbc</a> <a href="/tags/javascript/" style="font-size: 1.1em; color: #999">javascript</a> <a href="/tags/springcloud/" style="font-size: 1.1em; color: #999">springcloud</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">34</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">34</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-24T12:50:42.615Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text">居然看到底了😊</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
+准备数据库表
+创建一个新的springboot工程，选择引入对应的起步依赖（mybatis、mysql驱动、lombok）
+application.properties中引入数据库连接信息
+创建对应的实体类 Emp（实体类属性采用驼峰命名）
+准备Mapper接口 EmpMapper
+
+准备数据库表
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152-- 部门管理create table dept(    id          int un ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day08-Mybatis%E5%85%A5%E9%97%A8/" title="day08-Mybatis入门">day08-Mybatis入门</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:22:36.000Z" title="发表于 2023-03-24 21:22:36">2023-03-24</time></span></div><div class="content">Mybatis入门前言在前面我们学习MySQL数据库时，都是利用图形化客户端工具(如：idea、datagrip)，来操作数据库的。
+
+在客户端工具中，编写增删改查的SQL语句，发给MySQL数据库管理系统，由数据库管理系统执行SQL语句并返回执行结果。
+增删改操作：返回受影响行数
+查询操作：返回结果集(查询的结果)
+
+我们做为后端程序开发人员，通常会使用Java程序来完成对数据库的操作。Java程序操作数据库，现在主流的方式是：Mybatis。
+什么是MyBatis?
+
+MyBatis是一款优秀的 持久层 框架，用于简化JDBC的开发。
+
+MyBatis本是 Apache的一个开源项目iBatis，2010年这个项目由apache迁移到了google code，并且改名为MyBatis 。2013年11月迁移到Github。
+
+官网：https://mybatis.org/mybatis-3/zh/index.html
+
+
+在上面我们提到了两个词：一个是持久层，另一个是框架。
+
+持久层：指的是就是数据访问层(dao)，是用来操作数据库的。
+
+ 
+
+框架：是一个半成品软件，是一套可重用 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/24/javaweb/day08-%E6%95%B0%E6%8D%AE%E5%BA%93-MySQL-03/" title="day08-数据库-MySQL-03">day08-数据库-MySQL-03</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-03-24T13:21:03.000Z" title="发表于 2023-03-24 21:21:03">2023-03-24</time></span></div><div class="content">数据库开发-MySQL1. 多表查询1.1 概述1.1.1 数据准备SQL脚本：
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455#建议：创建新的数据库create database db04;use db04;-- 部门表create table tb_dept(    id          int unsigned primary key auto_increment comment &#x27;主键ID&#x27;,    name        varchar(10) not null unique comment &#x27;部门名称&#x27;,    create_time datetime    not null comment &#x27;创建时间&#x27;,    update_time datetime    not null comment &#x27;修改时间&#x27;) comment &#x27;部 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/#content-inner">6</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/./img/touxiang.JPG" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">happy</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">53</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/rrjjyy"><i class="fab fa-github"></i><span>关注我</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/rrjjyy" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/Git%E6%95%99%E7%A8%8B/" title="Git教程">Git教程</a><time datetime="2023-03-24T13:41:36.000Z" title="发表于 2023-03-24 21:41:36">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/javaweb/day15-Maven%E9%AB%98%E7%BA%A7/" title="day15-Maven高级">day15-Maven高级</a><time datetime="2023-03-24T13:35:20.000Z" title="发表于 2023-03-24 21:35:20">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/javaweb/day14-SpringBoot%E5%8E%9F%E7%90%86%E7%AF%87/" title="day14-SpringBoot原理篇">day14-SpringBoot原理篇</a><time datetime="2023-03-24T13:34:22.000Z" title="发表于 2023-03-24 21:34:22">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/javaweb/day13-SpringBootWeb-AOP/" title="day13-SpringBootWeb-AOP">day13-SpringBootWeb-AOP</a><time datetime="2023-03-24T13:33:02.000Z" title="发表于 2023-03-24 21:33:02">2023-03-24</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/24/javaweb/day12-SpringBootWeb%E7%99%BB%E5%BD%95%E8%AE%A4%E8%AF%81/" title="day12-SpringBootWeb登录认证">day12-SpringBootWeb登录认证</a><time datetime="2023-03-24T13:30:31.000Z" title="发表于 2023-03-24 21:30:31">2023-03-24</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/java%E5%9F%BA%E7%A1%80/" style="font-size: 1.1em; color: #999">java基础</a> <a href="/tags/springcloud/" style="font-size: 1.1em; color: #999">springcloud</a> <a href="/tags/nacos/" style="font-size: 1.1em; color: #999">nacos</a> <a href="/tags/mysql/" style="font-size: 1.5em; color: #99a9bf">mysql</a> <a href="/tags/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85/" style="font-size: 1.1em; color: #999">软件安装</a> <a href="/tags/%E9%9D%A2%E8%AF%95/" style="font-size: 1.1em; color: #999">面试</a> <a href="/tags/javascript/" style="font-size: 1.1em; color: #999">javascript</a> <a href="/tags/jdbc/" style="font-size: 1.1em; color: #999">jdbc</a> <a href="/tags/mybatis/" style="font-size: 1.1em; color: #999">mybatis</a> <a href="/tags/picture/" style="font-size: 1.1em; color: #999">picture</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">三月 2023</span><span class="card-archive-list-count">53</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">53</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-24T13:54:29.108Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="footer_custom_text">居然看到底了😊</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
