@@ -95,4 +95,25 @@
 </tbody></table>
 ]]></content>
   </entry>
+  <entry>
+    <title>demo1</title>
+    <url>/2023/11/02/demo1/</url>
+    <content><![CDATA[<p><a href="https://wwuu.lanzouy.com/ivtiX1bmobvg" 
+    style="padding: 5px 10px;
+          height: 120px; 
+          width: 63px;
+          border: 1px solid #00a4ff;
+          border-radius: 30px;
+          text-decoration: none;
+          text-align: center;
+          line-height: 36px;
+          color: #00a4ff;
+          font-size: 16px;
+          :hover {background-color: #00a4ff}
+          "
+    onmouseover="this.style.backgroundColor=' #00a4ff'; this.style.color='white'"  
+    onmouseout="this.style.backgroundColor='white';this.style.color='#00a4ff'"    
+    >下载</a></p>
+]]></content>
+  </entry>
 </search>
